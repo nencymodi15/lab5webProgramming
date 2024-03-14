@@ -1,0 +1,11 @@
+.header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 10px;
+  }
+  
+  .example-image {
+    max-width: 100%; 
+    height: auto; 
+  }

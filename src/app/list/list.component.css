@@ -1,0 +1,46 @@
+
+.list-container {
+    width: 300px; 
+    margin: 0 auto;
+  }
+  
+  .list-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .number-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .number-list li {
+    background-color: #f5f5f5; 
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .number-list li:nth-child(odd) {
+    background-color: #e0e0e0; 
+  }
+  
+  .number-list li:hover {
+    background-color: #d3d3d3;
+    cursor: pointer;
+  }
+  
+  .number-list li::before {
+    content: '•'; 
+    color: #333; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .number-list li:last-child {
+    margin-bottom: 0; 
+  }
+  
